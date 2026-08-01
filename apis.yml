@@ -1,7 +1,24 @@
 aid: poppins-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poppins-health.png
 name: Poppins Health
-description: Poppins Health is a company surfaced as a portfolio company of anthemis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Poppins Health is a health insurance provider offering a modern health
+  plan built for small businesses. Headquartered in Ohio, the company focuses on
+  affordability, transparent coverage, and a better member experience for small
+  business owners and their employees. Poppins Health is a portfolio company of the
+  venture firm Anthemis. As of this profile, Poppins Health publishes a public
+  marketing website but does not expose a public developer API, SDKs, or API
+  documentation surface for third-party integration.
 url: https://raw.githubusercontent.com/api-evangelist/poppins-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health Insurance
+- Insurance
+- Healthcare
+- Small Business
+- Employee Benefits
+- Insurtech
+common:
+- type: DomainSecurity
+  url: security/poppins-health-domain-security.yml
+- type: Website
+  url: https://www.poppinshealth.com/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
